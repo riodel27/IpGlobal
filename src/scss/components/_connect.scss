@@ -1,0 +1,55 @@
+#connect{
+  text-align: center;
+  padding: 60px 0 70px 0;
+  .col-md-5{
+    padding: 0 80px;
+  }
+  span{
+    font-size: 36px;
+    color: #05c7c5;
+    font-weight: 300;
+  }
+  h3{
+    color: #000000;
+    letter-spacing: 1.5px;
+    margin-bottom: 90px;
+    font-weight: 300;
+    font-size: 2.5rem;
+  }
+  .circuitImg{
+    padding-right: 28px;
+  }
+  h4{
+    color: #000000;
+    margin: 25px 0;
+    font-weight: 300;
+  }
+  p{
+    text-align: justify;
+    color: #888888;
+    line-height: 2;
+    font-weight: 300;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 766px){
+    .col-md-5{
+      padding: 0 40px;
+    }
+    .connect-col1{
+      margin-bottom: 40px;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 991px){
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    h3{
+      flex:0 1 100%;
+    }
+    .col-md-5{
+      flex: 0 1 46%;
+      padding: 30px;
+    }
+  }
+}

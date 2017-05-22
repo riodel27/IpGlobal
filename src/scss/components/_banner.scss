@@ -1,0 +1,78 @@
+#banner{
+  background-color: #111111;
+  padding: 130px 0 100px 0;
+  text-align: center;
+  background-image: url('../../img/banner-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  .col-md-4{
+    padding: 0;
+  }
+  h2{
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    margin-bottom: 0;
+  }
+  h1{
+    margin-top: 0;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #888888;
+  }
+  p{
+    color: #888888;
+    letter-spacing: 2.5px;
+    line-height: 2;
+    margin-bottom: 35px;
+    font-weight: 300;
+  }
+  hr{
+    width: 95%;
+    border-top: 1px solid #222222 !important;
+    margin-bottom: 10px !important;
+  }
+  a{
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 10px 25px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  @media only screen and (min-width: 320px) and (max-width: 766px){
+    h2{
+      font-size:  3.429rem;
+    }
+    h1{
+      font-size: 4.286rem;
+    }
+    p{
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+    }
+    hr{
+      max-width: 230px;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 991px){
+    hr{
+    width: 48%;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+    h2{
+      font-size: 4.5rem;
+    }
+    h1{
+      font-size: 5.7rem;
+    }
+    p{
+      font-size: 1.2rem;
+    }
+    hr{
+      width: 93%;
+    }
+  }
+}
