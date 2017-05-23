@@ -14,7 +14,6 @@ Side note: Work Environment.
 
 IDE: ATOM text editor.
 
-
 Motivation
 	The creation of this sample project is to provide some workflow when creating a Bootstrap project with Sass.
 
