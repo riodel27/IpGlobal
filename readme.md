@@ -1,5 +1,6 @@
 Ipglobal Web Template conversion from PSD to HTML5 and CSS(framework) - BootStrap
 
+
 Sample Projects for Bootstrap css framework.
 
 This repo contains sample projects that uses CSS Bootstrap framework with Sass.
@@ -13,6 +14,7 @@ Side note: Work Environment.
 -Also uses nginx as local Web Server.
 
 IDE: ATOM text editor.
+
 
 Motivation
 	The creation of this sample project is to provide some workflow when creating a Bootstrap project with Sass.
